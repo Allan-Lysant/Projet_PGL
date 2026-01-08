@@ -1,0 +1,14 @@
+This project is a professional quantitative finance platform designed to support portfolio managers. It features a real-time dashboard for analyzing financial assets, backtesting trading strategies, and simulating portfolio performance.
+
+The project is deployed on a Linux environment and includes automated daily reporting via Cron jobs.
+
+Quant A : Francis TINVAL
+Quant B : Allan Haillant
+
+Prerequisites : Python 3.8+, WSL, VS code
+
+
+Link to the repository : 
+```bash
+git clone [https://github.com/Allan-Lysant/Projet_PGL.git](https://github.com/Allan-Lysant/Projet_PGL.git)
+cd Projet_PGL
