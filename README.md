@@ -1,5 +1,4 @@
 # Projet_PGL
-Presentation of the project : 
 
 This project is a professional quantitative finance platform designed to support portfolio managers. It features a real-time dashboard for analyzing financial assets, backtesting trading strategies, and simulating portfolio performance.
 
@@ -23,3 +22,4 @@ Performance Metrics : Automatic calculation of Sharpe Ratio, Maximum Drawdown an
 Visualisation : We implement a graph showing the raw asset price together with the cumulative value of the chosen strategy (two curves)
 
 Module 2 : (Allan)
+
