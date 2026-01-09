@@ -123,4 +123,4 @@ def run():
     else:
         st.warning("Veuillez sélectionner au moins 3 actifs pour activer le module Quant B[cite: 41].")
 
-st.write(Multivariate - Multi-Asset Portfolio Module)
+    st.write(Multivariate - Multi-Asset Portfolio Module)
