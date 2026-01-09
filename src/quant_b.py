@@ -2,6 +2,7 @@ import yfinance as yf
 import pandas as pd
 from typing import List, Tuple
 
+def run():
 def download_price_data(
     tickers: List[str],
     start: str = "2015-01-01",
@@ -121,3 +122,5 @@ if len(tickers_input) >= 3:
     col2.metric("Volatilité Annuelle", f"{metrics['portfolio_volatility']:.2%}")
 else:
     st.warning("Veuillez sélectionner au moins 3 actifs pour activer le module Quant B[cite: 41].")
+
+st.write(Multivariate - Multi-Asset Portfolio Module)
