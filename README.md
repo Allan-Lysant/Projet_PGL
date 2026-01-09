@@ -9,6 +9,13 @@ Link of the project : git clone https://github.com/Allan-Lysant/Projet_PGL.git
 
 Virtual environment : python3 -m venv .venv How to activate the environment : source .venv/bin/activate How to install the dependencies : pip install -r requirements.txt You will found the application at http://localhost:8501/
 
-Module 1 : Univariate - Single Asset Analysis (Quant A) Two backtesting strategies : Moving Average Crossover, RSI Momentum Performance Metrics : Automatic calculation of Sharpe Ratio, Maximum Drawdown and Volatility. We compared this metrics to the ones of the Buy and Hold Strategy Visualisation : We implement a graph showing the raw asset price together with the cumulative value of the chosen strategy (two curves)
+Module 1 : Univariate - Single Asset Analysis (Quant A) 
+Two backtesting strategies : Moving Average Crossover, RSI Momentum 
+Performance Metrics : Automatic calculation of Sharpe Ratio, Maximum Drawdown and Volatility. 
+We compared this metrics to the ones of the Buy and Hold Strategy Visualisation : We implement a graph showing the raw asset price together with the cumulative value of the chosen strategy (two curves)
 
-Module 2 : (Allan)
+Module 2 : Multivariate - Multi-Asset Portfolio Module (Quant B)
+Analysis of multiple assets (Stocks, Cryptos, Indices) to assess global trends.
+Implementation of a Correlation Matrix to see if the assets are correlated.
+Interactive dashboard to monitor the overall portfolio performance compared to individual assets.
+
