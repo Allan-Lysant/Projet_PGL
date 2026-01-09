@@ -1,19 +1,12 @@
 import streamlit as st
-try:
-    from src import quant_a
-except ImportError:
-    quant_a = None
+from src import quant_a, quant_b
 
-st.set_page_config(page_title="Projet Finance", layout="wide")
-st.title("Dashboard Financier")
+st.set_page_config(page_title="Projet Finance PGL", layout="wide")
+st.sidebar.title("Navigation")
 
-module = st.sidebar.radio("Module", ["Quant A", "Quant B"])
+choix = st.sidebar.radio("Modules", ["Partie A (Moi)", "Partie B (Binôme)"])
 
-if module == "Quant A":
-    if quant_a:
-        quant_a.run()
-    else:
-        st.error("Le fichier src/quant_a.py est introuvable.")
-        
-elif module == "Quant B":
-    st.info("🚧 Module Quant B en construction par le binôme.")
+if choix == "Partie A (Moi)":
+    quant_a.run()
+elif choix == "Partie B (Binôme)":
+    quant_b.run()
