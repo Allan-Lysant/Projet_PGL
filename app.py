@@ -4,9 +4,9 @@ from src import quant_a, quant_b
 st.set_page_config(page_title="Projet Finance PGL", layout="wide")
 st.sidebar.title("Navigation")
 
-choix = st.sidebar.radio("Modules", ["Partie A (Moi)", "Partie B (Binôme)"])
+choix = st.sidebar.radio("Modules", ["Quant A", "Quant B"])
 
-if choix == "Partie A (Moi)":
+if choix == "Quant A":
     quant_a.run()
-elif choix == "Partie B (Binôme)":
+elif choix == "Quant B":
     quant_b.run()
