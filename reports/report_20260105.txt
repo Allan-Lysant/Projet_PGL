@@ -1,0 +1,9 @@
+
+    === RAPPORT QUOTIDIEN : BTC-USD ===
+    Date : 2026-01-05 19:53:14
+    
+    Prix de Clôture : 94193.00 $
+    Volatilité (Ann) : 34.88%
+    Max Drawdown (1Y): -32.15%
+    ===================================
+    
